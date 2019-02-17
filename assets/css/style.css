@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/bg.png");
+    color: #725376;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #97bcf7;
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+.rules {
+    background-color: #d1cce2;
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.number {
+    background-color: #e3d2e5;
+    float: left;
+    padding: 20px;
+    width: 270px;
+    height: 50px;
+}
+
+.wins-loses {
+    background-color: #d2bfe1;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    width: 270px;
+    height: 50px;
+}
+
+.totalscore {
+    background-color: #c7dffa;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+}
+
+.score {
+    background-color: #c7dffa;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+}
