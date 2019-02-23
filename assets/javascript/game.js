@@ -27,6 +27,14 @@ var startGame = function() {
 
 startGame();
 
+$(".crystalimg").hover(function() {
+    $(this).css({opacity: 0.7});
+},
+function() {
+    $(this).css({opacity: 1});
+});
+
+
 $(".crystalimg").on("click", function() {
 
     var crystalNumber = $(this).attr("data-randomcrystalnumber");
