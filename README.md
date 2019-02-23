@@ -1,5 +1,5 @@
 <h1>Crystal Collector Game</h1>
-An number game styled by HTML/CSS and powered by jQuery code.
+A number game styled by HTML/CSS and powered by jQuery code.
 <br /><br/>
 <b>Instructions:</b>
 <ul>
