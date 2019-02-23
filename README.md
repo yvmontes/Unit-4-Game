@@ -12,7 +12,7 @@ An number game styled by HTML/CSS and powered by jQuery code.
 <li>The player loses if their score goes above the random number.
 <li>The game restarts whenever the player wins or loses.
 </ul>
-
+<br/>
 <b>Demo:</b> https://yvmontes.github.io/Unit-4-Game/ <br/><br/>
 
 <img src="/assets/images/crystalgamescreen.png" width="850">
