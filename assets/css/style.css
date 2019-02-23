@@ -1,51 +1,87 @@
 body {
     background-image: url("../images/bg.png");
-    color: #725376;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #74598f;
+    font-size: 19px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 h1 {
-    color: #97bcf7;
     font-family: 'Cinzel', serif;
-    font-size: 70px;
-    text-decoration: none;
+    font-size: 60px;
+    color: #74598f;
 }
 
-.rules {
-    background-color: #d1cce2;
-    width: 600px;
-    padding: 20px;
-    margin-bottom: 20px;
+#rules {
+    line-height: 20px;
+    color: #36415a;
+    margin-bottom: 30px;
 }
 
-.number {
-    background-color: #e3d2e5;
-    float: left;
-    padding: 20px;
-    width: 270px;
-    height: 50px;
+#result {
+    font-size: 65px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.wins-loses {
-    background-color: #d2bfe1;
-    float: left;
-    padding: 20px;
-    margin-left: 20px;
-    width: 270px;
-    height: 50px;
+#table {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.totalscore {
-    background-color: #c7dffa;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 270px;
+#crystals-need {
+    font-size: 22px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
 }
 
-.score {
-    background-color: #c7dffa;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: 270px;
+#crystals-have {
+    font-size: 22px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
+
+.win {
+    padding: 40px;
+    font-size: 22px;
+}
+
+.lose {
+    padding: 40px;
+    font-size: 22px;
+}
+
+#wins {
+    font-size: 45px;
+}
+
+#losses {
+    font-size: 45px;
+}
+
+#totalScore {
+    font-size: 65px;
+}
+
+
+ .crystals {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .crystal {
+     height: 200px;
+     width: 200px;
+ }
+ 
+ 
+ 
