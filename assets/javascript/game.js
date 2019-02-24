@@ -7,9 +7,9 @@ var crystal2Number;
 var crystal3Number;
 var crystal4Number;
 
-var startGame = function() {
-
-    randomResult = Math.floor(Math.random() * 110) + 20; // givrs a random number to the crystal number we want to obtain
+function startGame() {
+    console.log('hello');
+    randomResult = Math.floor(Math.random() * 110) + 10; // gives a random number to the crystal number we want to obtain
     $("#result").html(randomResult); // this posts the number of crystals we want to obtain in our html
 
     crystal1Number = Math.floor(Math.random() * 12) + 1; // adds a number to crystal 1
@@ -21,7 +21,9 @@ var startGame = function() {
     $("#crystal1").attr("data-randomcrystalnumber", crystal1Number); // tying the data-randomcrystalnumber to the
     $("#crystal2").attr("data-randomcrystalnumber", crystal2Number); // ID on the image so when the player
 	$("#crystal3").attr("data-randomcrystalnumber", crystal3Number); // click on the image the data is tied to
-	$("#crystal4").attr("data-randomcrystalnumber", crystal4Number); // img 
+    $("#crystal4").attr("data-randomcrystalnumber", crystal4Number); // img 
+    
+    $("#totalScore").text("0");
     
 }
 
@@ -52,7 +54,7 @@ $(".crystalimg").on("click", function() {
         startGame();
     }
 
-    else if(totalScore === randomResult){
+    if (totalScore === randomResult){
         wins++; // if the total score is the same as the random result then you win
         console.log("You win.");
         $("#wins").html(wins); // apply the wins to the win ID
